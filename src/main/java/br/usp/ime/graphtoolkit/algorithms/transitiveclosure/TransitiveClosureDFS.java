@@ -1,4 +1,4 @@
-package br.usp.ime.graphtoolkit.transitiveclosure;
+package br.usp.ime.graphtoolkit.algorithms.transitiveclosure;
 
 import br.usp.ime.graphtoolkit.algorithms.traversal.NonRecursiveDFS;
 import edu.uci.ics.jung.graph.DirectedGraph;

@@ -1,4 +1,4 @@
-package br.usp.ime.graphtoolkit.transitiveclosure;
+package br.usp.ime.graphtoolkit.algorithms.transitiveclosure;
 
 /**
  * A simple graph edge implementation

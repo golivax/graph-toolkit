@@ -1,4 +1,4 @@
-package br.usp.ime.graphtoolkit.transitiveclosure;
+package br.usp.ime.graphtoolkit.algorithms.transitiveclosure;
 
 public class TransitiveClosureFloydWarshall {
 
