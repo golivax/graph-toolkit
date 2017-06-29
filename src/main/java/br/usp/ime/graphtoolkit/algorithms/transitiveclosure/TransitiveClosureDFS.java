@@ -21,6 +21,7 @@ public class TransitiveClosureDFS<V,E> extends NonRecursiveDFS<V,E>{
 		
 	}
 	
+	//TODO: Test
 	public DirectedGraph<V, SimpleEdge> getTransitiveClosureFrom(
 			DirectedGraph<V, E> graph) {
 		
@@ -41,7 +42,7 @@ public class TransitiveClosureDFS<V,E> extends NonRecursiveDFS<V,E>{
 	}
 
 	@Override
-	public void visit(V root, V v) {
+	public void discoverNode(V root, V v) {
 		SimpleEdge e = new SimpleEdge(root + "," + v);
 		transitiveClosure.addEdge(e, root, v);
 	}
